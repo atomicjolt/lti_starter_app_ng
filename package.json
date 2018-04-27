@@ -1,10 +1,10 @@
 {
-  "name": "react_rails_starter_app",
+  "name": "lti_starter_app_mg",
   "version": "0.1.0",
-  "description": "React Starter App with Rails",
+  "description": "LTI Starter App with Rails and Angular",
   "author": "atomicjolt",
   "license": "MIT",
-  "homepage": "https://github.com/atomicjolt/react_rails_starter_app",
+  "homepage": "https://github.com/atomicjolt/lti_starter_app_ng",
   "scripts": {
     "postinstall": "cd ./client && yarn",
     "test": "./tests.sh",
@@ -29,16 +29,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atomicjolt/lti_starter_app"
+    "url": "https://github.com/atomicjolt/lti_starter_app_ng"
   },
   "keywords": [
     "react",
+    "angular",
     "LMS",
     "Rails",
     "LTI",
     "OAuth"
   ],
   "dependencies": {
-    "del": "^3.0.0"
+    "@angular/common": "^5.2.10",
+    "@angular/compiler": "^5.2.10",
+    "@angular/core": "^5.2.10",
+    "@angular/platform-browser": "^5.2.10",
+    "@angular/platform-browser-dynamic": "^5.2.10",
+    "@rails/webpacker": "3.4",
+    "core-js": "^2.5.5",
+    "del": "^3.0.0",
+    "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.0.0",
+    "ts-loader": "3.5.0",
+    "typescript": "^2.8.3",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
   }
 }

@@ -1,11 +1,3 @@
-<% content_for :head do -%>
-  <%= webpack_styles_tag "hello_world", "hello_world" %>
-<% end -%>
-
-<%= render "shared/default_client_settings" %>
-<%= webpack_manifest_script("hello_world") %>
-<div id="main-app"></div>
-
-<%= webpack_bundle_tag "hello_world", "hello_world_manifest" %>
-<%= webpack_bundle_tag "hello_world", "hello_world_vendor" %>
-<%= webpack_bundle_tag "hello_world", "hello_world" %>
+<%= render 'shared/default_client_settings' %>
+<hello-angular>Loading...</hello-angular>
+<%= javascript_pack_tag "hello_angular" %>

@@ -13,6 +13,9 @@ end
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "5.1.5"
 
+# Javascript
+gem 'webpacker', '~> 3.4'
+
 # Database
 gem "apartment"
 gem "pg"

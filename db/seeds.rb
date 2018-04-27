@@ -71,9 +71,9 @@ applications = [
   },
   {
     key: Application::HELLOWORLD,
-    name: "LTI Starter App",
+    name: "Angular LTI Starter App",
     description: "LTI Starter App by Atomic Jolt",
-    client_application_name: "hello_world",
+    client_application_name: "hello_angular",
     # List Canvas API methods the app is allowed to use. A full list of constants can be found in canvas_urls
     canvas_api_permissions: {
       default: [],
